@@ -1,0 +1,17 @@
+Package: HOFS
+Type: Package
+Title: Higher Order Mutual Information Approximation for Feature Selection
+Version: 1.0.0
+Author: Krzysztof Gajowniczek
+Maintainer: Krzysztof Gajowniczek <krzysztof_gajowniczek@sggw.edu.pl>
+Description: A higher order Mutual Information (MI) based approximation technique. 
+    Instead of producing a single list of features, method produces a ranked collection of feature subsets that maximizes MI, 
+    giving better comprehension (feature ranking) as to which features work best together when selected, 
+    due to their underlying interdependent structure.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5), data.table, shiny, shinyjs, DT, Rcpp, RcppArmadillo
+RoxygenNote: 7.0.2
+Imports: Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo

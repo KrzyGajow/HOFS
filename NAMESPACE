@@ -1,0 +1,11 @@
+useDynLib(HOFS, .registration=TRUE)
+export(
+	HOFS,
+	runShinyHOFS
+)
+
+importFrom(Rcpp, evalCpp)
+import(RcppArmadillo)
+import(utils)
+import(stats)
+import(shiny)
